@@ -9,6 +9,7 @@ public class HeroController : MonoBehaviour
     [SerializeField] float blastRadius = 5f;
     [SerializeField] float explotionForce = 700f;
     [SerializeField] GameObject targetObject;
+    [SerializeField] GameObject particleCrack;
     Vector3 positionInAir;
     Vector3 jumpPoint;
     Vector3 positionToMove;
@@ -26,6 +27,9 @@ public class HeroController : MonoBehaviour
 
     void Update()
     {
+        Time.timeScale += (1f / 2f) * Time.unscaledDeltaTime;
+        Time.timeScale = Mathf.Clamp(Time.timeScale, 0f, 1f);
+
         Inputmouse();
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -45,9 +49,12 @@ public class HeroController : MonoBehaviour
 
         if (inJump)
         {
-            if (Vector3.Distance(transform.position, positionToMove) < 1f)
+            if (Vector3.Distance(transform.position, positionToMove) < 2f)
             {
+                SlowMotion();
                 Blast();
+                Vector3 pos = new Vector3(transform.position.x, 0, transform.position.z);
+                Instantiate(particleCrack, pos, Quaternion.identity);
                 shockwave.Play();
                 inJump = false;
             }
@@ -66,12 +73,35 @@ public class HeroController : MonoBehaviour
                 collider.GetComponent<RagdollController>().TurnOnRagDoll();
             }
 
+            if (collider.CompareTag("Breakable"))
+            {
+                foreach (Transform child in collider.transform)
+                {
+                    if (child.gameObject.activeInHierarchy)
+                        child.gameObject.SetActive(false);
+                    else
+                    {
+                        child.gameObject.SetActive(true);
+                        var rb2 = child.gameObject.GetComponent<Rigidbody>();
+                        rb2.AddExplosionForce(explotionForce, transform.position, blastRadius);
+                    }
+                }
+                collider.gameObject.GetComponent<BoxCollider>().enabled = false;
+
+            }
+
             if (rb != null)
             {
                 rb.isKinematic = false;
                 rb.AddExplosionForce(explotionForce, transform.position, blastRadius);
             }
         }
+    }
+
+    void SlowMotion()
+    {
+        Time.timeScale = 0.1f;
+        Time.fixedDeltaTime = Time.timeScale * .02f;
     }
 
 

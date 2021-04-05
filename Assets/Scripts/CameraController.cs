@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    Vector3 destanation;
-    Quaternion angleDestanation;
+    public Transform destanation;
     [SerializeField] GameObject camerapoint2;
+    public List<GameObject> cameraPoints;
 
     private void Start()
     {
-        destanation = transform.position;
+        destanation = transform;
         StartCoroutine("CameraStart");
     }
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, destanation, Time.deltaTime);
-        transform.rotation = Quaternion.Lerp(transform.rotation, angleDestanation, Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, destanation.transform.position, Time.deltaTime);
+        transform.rotation = Quaternion.Lerp(transform.rotation, destanation.transform.rotation, Time.deltaTime);
     }
 
     IEnumerator CameraStart()
     {
-        yield return new WaitForSeconds(2.0f);
-        destanation = camerapoint2.transform.position;
-        angleDestanation = camerapoint2.transform.rotation;
+        destanation = cameraPoints[0].transform;
+        yield return new WaitForSeconds(1.5f);
+        destanation = cameraPoints[1].transform;
+        yield return new WaitForSeconds(1.5f);
+        destanation = cameraPoints[2].transform;
+        yield return new WaitForSeconds(1.5f);
+        destanation = cameraPoints[3].transform;
+        yield return new WaitForSeconds(1.5f);
     }
 }
