@@ -1507,3 +1507,12 @@ System memory in use after: 142.5 MB.
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2728.
 Total: 5.872000 ms (FindLiveObjects: 0.677700 ms CreateObjectMapping: 0.264400 ms MarkObjects: 3.316000 ms  DeleteObjects: 1.611500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1053.832834 seconds.
+  path: Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE 1.mat
+  artifactKey: Guid(cb9eb8b29159a8441b8339b3079d21d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Low Poly Ultimate Pack/- Materials/Colors/7 SKIN-WHITE 1.mat using Guid(cb9eb8b29159a8441b8339b3079d21d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc28864552ebe1ca01dcb73c3e50ef1d') in 0.073183 seconds
+  Import took 0.078620 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
