@@ -30,6 +30,7 @@ public class RagdollController : MonoBehaviour
         {
             rb.isKinematic = false;
         }
+        this.enabled = false;
     }
 
     public void RagDollExplotionForce(float exploationForce, Vector3 heroPosition, float blastRadius)
