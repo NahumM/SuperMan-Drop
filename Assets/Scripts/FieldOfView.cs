@@ -12,7 +12,6 @@ public class FieldOfView : MonoBehaviour
 	public LayerMask targetMask;
 	public LayerMask obstacleMask;
 
-	[HideInInspector]
 	public List<Transform> visibleTargets = new List<Transform>();
 
 	public float meshResolution;
@@ -22,19 +21,28 @@ public class FieldOfView : MonoBehaviour
 	public MeshFilter viewMeshFilter;
 	Mesh viewMesh;
 
+	public MeshFilter viewMeshFilterNoneObjects;
+	public MeshFilter viewMeshFilterFindPlayer;
+
+	Patrol patrol;
+
+	bool finded;
+
 	void Start()
 	{
+		patrol = GetComponent<Patrol>();
 		viewMesh = new Mesh();
 		viewMesh.name = "View Mesh";
 		viewMeshFilter.mesh = viewMesh;
 
-		StartCoroutine("FindTargetsWithDelay", .2f);
+		if (!finded)
+			StartCoroutine("FindTargetsWithDelay", .1f);
 	}
 
 
 	IEnumerator FindTargetsWithDelay(float delay)
 	{
-		while (true)
+		while (!finded)
 		{
 			yield return new WaitForSeconds(delay);
 			FindVisibleTargets();
@@ -51,18 +59,44 @@ public class FieldOfView : MonoBehaviour
 		visibleTargets.Clear();
 		Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
 
-		for (int i = 0; i < targetsInViewRadius.Length; i++)
+		if (targetsInViewRadius.Length != 0)
 		{
-			Transform target = targetsInViewRadius[i].transform;
-			Vector3 dirToTarget = (target.position - transform.position).normalized;
-			if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
+			for (int i = 0; i < targetsInViewRadius.Length; i++)
 			{
-				float dstToTarget = Vector3.Distance(transform.position, target.position);
-				if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
+				Transform target = targetsInViewRadius[i].transform;
+				Vector3 dirToTarget = (target.position - transform.position).normalized;
+				if (Vector3.Angle(transform.forward, dirToTarget) < viewAngle / 2)
 				{
-					visibleTargets.Add(target);
+					float dstToTarget = Vector3.Distance(transform.position, target.position);
+					if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
+					{
+						Debug.Log(target.name);
+						if (target.gameObject.CompareTag("Player"))
+						{
+							visibleTargets.Add(target);
+							viewMeshFilter.mesh = null;
+							viewMeshFilter = viewMeshFilterFindPlayer;
+							viewMeshFilter.mesh = viewMesh;
+							patrol.FindHero(target.gameObject);
+							finded = true;
+						}
+						if (target.gameObject.CompareTag("DeadEnemy"))
+                        {
+							visibleTargets.Add(target);
+							viewMeshFilter.mesh = null;
+							viewMeshFilter = viewMeshFilterFindPlayer;
+							viewMeshFilter.mesh = viewMesh;
+							finded = true;
+						}
+					}
 				}
 			}
+		}
+		else
+		{
+			viewMeshFilter.mesh = null;
+			viewMeshFilter = viewMeshFilterNoneObjects;
+			viewMeshFilter.mesh = viewMesh;
 		}
 	}
 

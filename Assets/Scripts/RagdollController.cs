@@ -10,6 +10,7 @@ public class RagdollController : MonoBehaviour
     FieldOfView view;
     NavMeshAgent agent;
     [SerializeField] FinalController final;
+    bool oneTime;
 
     void Start()
     {
@@ -20,17 +21,23 @@ public class RagdollController : MonoBehaviour
 
     public void TurnOnRagDoll()
     {
-        final.MinusEnemy();
-        anim.enabled = false;
-        view.meshResolution = 0;
-        if (agent != null)
-            agent.enabled = false;
-
-        foreach (Rigidbody rb in ragdollParts)
+        if (!oneTime)
         {
-            rb.isKinematic = false;
+            final.MinusEnemy();
+            anim.enabled = false;
+            view.meshResolution = 0;
+            if (agent != null)
+                agent.enabled = false;
+
+            foreach (Rigidbody rb in ragdollParts)
+            {
+                rb.isKinematic = false;
+            }
+            this.enabled = false;
+            oneTime = true;
+            this.gameObject.tag = "DeadEnemy";
         }
-        this.enabled = false;
+        else Debug.Log("Ragdoll casted more than once");
     }
 
     public void RagDollExplotionForce(float exploationForce, Vector3 heroPosition, float blastRadius)
