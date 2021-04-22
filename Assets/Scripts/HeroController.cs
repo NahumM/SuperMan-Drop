@@ -18,6 +18,7 @@ public class HeroController : MonoBehaviour
     float startXRotation;
     [SerializeField] ParticleSystem shockwave;
     [SerializeField] GameObject restartButton;
+    [SerializeField] GameObject trailSmoke;
 
     Material targetMat;
 
@@ -84,6 +85,7 @@ public class HeroController : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, positionToMove) < 2f)
             {
+                trailSmoke.SetActive(false);
                 anim.SetBool("isStanding", true);
                 transform.eulerAngles = new Vector3(0, transform.eulerAngles.y, transform.eulerAngles.z);
                 SlowMotion();
@@ -219,7 +221,7 @@ public class HeroController : MonoBehaviour
                 tutorialB.ShowHold(false);
                 tutorialB.ShowAttack(true);
             }
-
+            trailSmoke.SetActive(true);
             touchPressed = true;
             jumpSpeed = 3;
             jumpPoint = transform.position;

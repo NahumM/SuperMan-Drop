@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class FinalController : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class FinalController : MonoBehaviour
 
     IEnumerator Final()
     {
+        var finalText = GameObject.Find("SaveHostages_text").GetComponent<TextMeshProUGUI>();
+        finalText.text = "Mission Complete!";
+        finalText.color = Color.green;
+        yield return new WaitForSeconds(1f);
         cameraC.destanation = cameraC.cameraWin;
         hero.Won();
         yield return new WaitForSeconds(2.0f);
@@ -50,6 +55,7 @@ public class FinalController : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         GameObject[] bosses = GameObject.FindGameObjectsWithTag("Boss");
-        enemiesToKill = enemies.Length + bosses.Length;
+        GameObject[] final = GameObject.FindGameObjectsWithTag("FinalBoss");
+        enemiesToKill = enemies.Length + bosses.Length + final.Length;
     }
 }
