@@ -6,14 +6,17 @@ using UnityEngine.AI;
 public class RagdollController : MonoBehaviour
 {
     [SerializeField] List<Rigidbody> ragdollParts = new List<Rigidbody>();
-    Animator anim;
+    protected Animator anim;
     FieldOfView view;
     NavMeshAgent agent;
-    [SerializeField] FinalController final;
-    bool oneTime;
+    [SerializeField] protected FinalController final;
+    Rigidbody rb;
+    protected bool oneTime;
+    [SerializeField] GameObject tower;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         view = GetComponent<FieldOfView>();
        anim = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
@@ -23,9 +26,12 @@ public class RagdollController : MonoBehaviour
     {
         if (!oneTime)
         {
-            final.MinusEnemy();
+            if (CompareTag("Enemy") || CompareTag("Boss"))
+            {
+                final.MinusEnemy();
+                view.meshResolution = 0;
+            }
             anim.enabled = false;
-            view.meshResolution = 0;
             if (agent != null)
                 agent.enabled = false;
 
@@ -35,13 +41,18 @@ public class RagdollController : MonoBehaviour
             }
             this.enabled = false;
             oneTime = true;
-            this.gameObject.tag = "DeadEnemy";
+            if (tower != null)
+            {
+                tower.GetComponent<TankTower>().enabled = false;
+            }
         }
-        else Debug.Log("Ragdoll casted more than once");
     }
 
     public void RagDollExplotionForce(float exploationForce, Vector3 heroPosition, float blastRadius)
     {
-        //rb.AddExplosionForce(explotionForce, transform.position, blastRadius);
+        foreach (Rigidbody rb in ragdollParts)
+        {
+            rb.AddExplosionForce(exploationForce, transform.position, blastRadius);
+        }
     }
 }
