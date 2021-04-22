@@ -29,10 +29,15 @@ public class FinalController : MonoBehaviour
 
     IEnumerator Final()
     {
-        var finalText = GameObject.Find("SaveHostages_text").GetComponent<TextMeshProUGUI>();
-        finalText.text = "Mission Complete!";
-        finalText.color = Color.green;
+        var finalMessage = GameObject.Find("SaveHostages_text");
+        if (finalMessage != null)
+        {
+            var textMesh = finalMessage.GetComponent<TextMeshProUGUI>();
+            textMesh.text = "Mission Complete!";
+            textMesh.color = Color.green;
+        }
         yield return new WaitForSeconds(1f);
+        nextButton.SetActive(true);
         cameraC.destanation = cameraC.cameraWin;
         hero.Won();
         yield return new WaitForSeconds(2.0f);
@@ -46,7 +51,6 @@ public class FinalController : MonoBehaviour
                 anim.gameObject.transform.position = new Vector3(anim.gameObject.transform.position.x, anim.gameObject.transform.position.y + 0.4f, anim.gameObject.transform.position.z);
                 anim.SetBool("isFinal", true);
             }
-            nextButton.SetActive(true);
         }
     }
 
