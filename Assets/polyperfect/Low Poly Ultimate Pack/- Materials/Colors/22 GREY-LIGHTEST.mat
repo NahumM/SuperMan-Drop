@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 22 GREY-LIGHTEST
   m_Shader: {fileID: 4800000, guid: 74e6a0629ff62134ab27b220e3a687f9, type: 3}
-  m_ShaderKeywords: TCP2_DISABLE_WRAPPED_LIGHT TCP2_UV_NORMALS_FULL
+  m_ShaderKeywords: OUTLINES TCP2_DISABLE_WRAPPED_LIGHT TCP2_UV_NORMALS_FULL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0

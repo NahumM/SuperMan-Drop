@@ -1,132 +1,103 @@
 Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16272 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+C:\Unity\2020.2.1f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/pavel/Documents/Unity/SuperMan-Drop
+C:/Unity/SuperMan-Drop
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49344
-Successfully changed project path to: /Users/pavel/Documents/Unity/SuperMan-Drop
-/Users/pavel/Documents/Unity/SuperMan-Drop
+53581
+Successfully changed project path to: C:/Unity/SuperMan-Drop
+C:/Unity/SuperMan-Drop
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 84.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/pavel/Documents/Unity/SuperMan-Drop/Assets
+[Subsystems] Discovering subsystems at path C:/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/SuperMan-Drop/Assets
 GfxDevice: creating device client; threaded=0
-2021-04-22 21:47:01.103 Unity[83830:22649396] LG HDR 4K preferred device: AMD Radeon Pro 5500M (high power)
-2021-04-22 21:47:01.103 Unity[83830:22649396] Metal devices available: 2
-2021-04-22 21:47:01.103 Unity[83830:22649396] 0: AMD Radeon Pro 5500M (high power)
-2021-04-22 21:47:01.103 Unity[83830:22649396] 1: Intel(R) UHD Graphics 630 (low power)
-2021-04-22 21:47:01.104 Unity[83830:22649396] Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1c30)
+    Vendor:   
+    VRAM:     5032 MB
+    Driver:   27.21.14.5257
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56830
+Mono path[0] = 'C:/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000555 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 71.84 ms, found 2 plugins.
+Register platform support module: C:/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002015 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 234.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.483 seconds
+- Completed reload, in  2.381 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001415 seconds.
+Registered in 0.003308 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.881 seconds
+- Completed reload, in  1.738 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2185 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 223.8 MB.
+System memory in use before: 146.9 MB.
+System memory in use after: 144.9 MB.
 
-Unloading 144 unused Assets to reduce memory usage. Loaded Objects now: 2637.
-Total: 5.709506 ms (FindLiveObjects: 0.294994 ms CreateObjectMapping: 0.122791 ms MarkObjects: 2.383212 ms  DeleteObjects: 2.907178 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/tablemallqdge.fbx
-  artifactKey: Guid(e87205eb97111d646b37e3484e1280f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tablemallqdge.fbx using Guid(e87205eb97111d646b37e3484e1280f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7ea76ccccd570aeae69452774758b3') in 1.046071 seconds
-  Import took 1.052648 seconds .
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 6.105900 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.155000 ms MarkObjects: 4.180000 ms  DeleteObjects: 1.359800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Slider.prefab
-  artifactKey: Guid(4dd0b035cfd95fd478565e6d71749473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Slider.prefab using Guid(4dd0b035cfd95fd478565e6d71749473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845c8bd43aec168a607b5c66895626e9') in 0.344021 seconds
-  Import took 0.347996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 230.409074 seconds.
-  path: Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png
-  artifactKey: Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF Atlas.png using Guid(35891abd43bca4b8dbaff570b5c0c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d0bc0bcf61fa3a009a7b087f857fd7') in 1.077615 seconds
-  Import took 1.081641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset
-  artifactKey: Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset using Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d7bbb4ca59e3714c60fd01e09775f1') in 0.336510 seconds
-  Import took 0.340170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002417 seconds.
-  path: Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset
-  artifactKey: Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUI Kit Casual Game/ResourcesData/Fonts/LilitaOne-Regular Outline 54 SDF.asset using Guid(605433b68313d491a8ab88bc03a41651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d7bbb4ca59e3714c60fd01e09775f1') in 0.043836 seconds
-  Import took 0.047678 seconds .
+  path: Assets/Prefab/Levels/Level20.prefab
+  artifactKey: Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level20.prefab using Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea19cdfe718f71eafa5e258652f991ed') in 0.538024 seconds
+  Import took 0.552465 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003429 seconds.
+Registered in 0.003242 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
 UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
@@ -134,642 +105,811 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.166 seconds
+- Completed reload, in  1.112 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 251.8 MB.
-System memory in use after: 246.3 MB.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.4 MB.
+System memory in use after: 145.3 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2687.
-Total: 5.355201 ms (FindLiveObjects: 0.220921 ms CreateObjectMapping: 0.083043 ms MarkObjects: 2.463156 ms  DeleteObjects: 2.587250 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2672.
+Total: 3.545200 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.445400 ms  DeleteObjects: 0.789400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 246.746304 seconds.
+  Time since last request: 111.633314 seconds.
   path: Assets/Prefab/Levels/Level0.prefab
   artifactKey: Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level0.prefab using Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '59f92a1c6c02b07629d045ebcb436a16') in 1.254382 seconds
-  Import took 1.264098 seconds .
+Start importing Assets/Prefab/Levels/Level0.prefab using Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3050ae61771cb6c4069e63a5f16f5f') in 0.191376 seconds
+  Import took 0.201103 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
+  Time since last request: 0.000245 seconds.
   path: Assets/Prefab/Levels/Level15.prefab
   artifactKey: Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level15.prefab using Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '4b16dab991a9f986615f315035797d2c') in 1.068927 seconds
-  Import took 1.084028 seconds .
+Start importing Assets/Prefab/Levels/Level15.prefab using Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e7e67967261217ca56a698bdfe750') in 0.138762 seconds
+  Import took 0.154164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
+  Time since last request: 0.000283 seconds.
   path: Assets/Prefab/Levels/Level4.prefab
   artifactKey: Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level4.prefab using Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '74778b7abe4dc6e7ecfa093dc00ad9a9') in 0.337805 seconds
-  Import took 0.349603 seconds .
+Start importing Assets/Prefab/Levels/Level4.prefab using Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8022b3bc6b8f73c662910af664499041') in 0.106776 seconds
+  Import took 0.119334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
+  Time since last request: 0.000267 seconds.
   path: Assets/Prefab/Levels/Level16.prefab
   artifactKey: Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level16.prefab using Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: 'b0b9c3f947d0defea23b1b189923df3c') in 0.709801 seconds
-  Import took 0.721171 seconds .
+Start importing Assets/Prefab/Levels/Level16.prefab using Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3b42e2975a25a6309b6deb04d0d3a1') in 0.096423 seconds
+  Import took 0.108590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
+  Time since last request: 0.000280 seconds.
   path: Assets/Prefab/Levels/Level17.prefab
   artifactKey: Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level17.prefab using Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: 'f5002c8e54d011fafb5d66d2b5119862') in 0.417446 seconds
-  Import took 0.430984 seconds .
+Start importing Assets/Prefab/Levels/Level17.prefab using Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e481fb06f09cebf9cfc8e68461c4e7b3') in 0.122381 seconds
+  Import took 0.138780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
+  Time since last request: 0.000304 seconds.
   path: Assets/Prefab/Levels/Level9.prefab
   artifactKey: Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level9.prefab using Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: 'fa2cdf0ab99c7bcd93b09de2bff53356') in 0.350203 seconds
-  Import took 0.365616 seconds .
+Start importing Assets/Prefab/Levels/Level9.prefab using Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c057321a9d8d7ba797814ab1ec267aa') in 0.138999 seconds
+  Import took 0.154214 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000356 seconds.
   path: Assets/Prefab/Levels/Level2.prefab
   artifactKey: Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level2.prefab using Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: 'ff8db907bd59ceda320ee492570d1d0f') in 0.331057 seconds
-  Import took 0.342676 seconds .
+Start importing Assets/Prefab/Levels/Level2.prefab using Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0d0419c1785719959034b8dd9cab3e') in 0.101901 seconds
+  Import took 0.112888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
+  Time since last request: 0.000278 seconds.
   path: Assets/Prefab/Levels/Level2.2.prefab
   artifactKey: Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level2.2.prefab using Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '13a40e56028684efd6f2dfe1552338c0') in 0.325293 seconds
-  Import took 0.336927 seconds .
+Start importing Assets/Prefab/Levels/Level2.2.prefab using Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b459d172959c988a721dab26180aa2') in 0.107674 seconds
+  Import took 0.122263 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
+  Time since last request: 0.000289 seconds.
   path: Assets/Prefab/Levels/Level11.prefab
   artifactKey: Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level11.prefab using Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: 'f5d520c231f6c3e997d711148866e0c5') in 0.281060 seconds
-  Import took 0.291819 seconds .
+Start importing Assets/Prefab/Levels/Level11.prefab using Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96c1eb03084e7e3137ff6da1eb117b3') in 0.126114 seconds
+  Import took 0.160736 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
+  Time since last request: 0.000396 seconds.
   path: Assets/Prefab/Levels/Level8.prefab
   artifactKey: Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level8.prefab using Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: 'b494b647e97c0e561e676cf6b27e1df5') in 0.313399 seconds
-  Import took 0.323691 seconds .
+Start importing Assets/Prefab/Levels/Level8.prefab using Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8405c8c16e45fe05f977645b3194ba') in 0.091189 seconds
+  Import took 0.108468 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
+  Time since last request: 0.000255 seconds.
   path: Assets/Prefab/Levels/Level14.prefab
   artifactKey: Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level14.prefab using Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: 'fc6dbd8fd7f237320b1f9c5456297fcc') in 0.306269 seconds
-  Import took 0.318381 seconds .
+Start importing Assets/Prefab/Levels/Level14.prefab using Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735f42fef0055b79057971c8b957fa8f') in 0.133899 seconds
+  Import took 0.153226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
+  Time since last request: 0.000344 seconds.
   path: Assets/Prefab/Levels/Level6.prefab
   artifactKey: Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level6.prefab using Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '50ef8c82295a42b62683536c5046e25d') in 0.335959 seconds
-  Import took 0.347513 seconds .
+Start importing Assets/Prefab/Levels/Level6.prefab using Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c5ea60021d3a00a5d24614547048d3') in 0.110598 seconds
+  Import took 0.147301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
+  Time since last request: 0.000349 seconds.
   path: Assets/Prefab/Levels/Level1.prefab
   artifactKey: Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level1.prefab using Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: 'b2d25af40247e4d72a4db5355ce4b116') in 0.321471 seconds
-  Import took 0.332617 seconds .
+Start importing Assets/Prefab/Levels/Level1.prefab using Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8ed9dbae11385c6aeaeff450a0e961') in 0.096009 seconds
+  Import took 0.107189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
+  Time since last request: 0.000294 seconds.
   path: Assets/Prefab/Levels/Level3.3.prefab
   artifactKey: Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level3.3.prefab using Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '211c8fbb02003606e88f740203231f1d') in 0.322373 seconds
-  Import took 0.334010 seconds .
+Start importing Assets/Prefab/Levels/Level3.3.prefab using Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a211116001aa0a1d0549197d48a758') in 0.100456 seconds
+  Import took 0.111890 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
+  Time since last request: 0.000373 seconds.
   path: Assets/Prefab/Levels/Level7.prefab
   artifactKey: Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level7.prefab using Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '4331d71f5ae976c795c23784332e7aa4') in 0.343111 seconds
-  Import took 0.355191 seconds .
+Start importing Assets/Prefab/Levels/Level7.prefab using Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac874d9ceabf3cbb8ba472ae1d791010') in 0.102545 seconds
+  Import took 0.114345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Prefab/Levels/Level10.prefab
+  artifactKey: Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level10.prefab using Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb02f926bc5c6c6d610df906c5a07e6') in 0.091543 seconds
+  Import took 0.102049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefab/Levels/Level12.prefab
+  artifactKey: Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level12.prefab using Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d59d58782a8ee6c136f41497d983cf2') in 0.111789 seconds
+  Import took 0.126712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Prefab/Levels/Level3.2.prefab
+  artifactKey: Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.2.prefab using Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c191213d915c9e0b1fa4c23b15ac6f0') in 0.109588 seconds
+  Import took 0.121280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Prefab/Levels/Level13.prefab
+  artifactKey: Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level13.prefab using Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea98252451d53f843354d34a21b6b2d') in 0.102617 seconds
+  Import took 0.114392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Prefab/Levels/Level19.prefab
+  artifactKey: Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level19.prefab using Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8cc1427ce3883d165235e1c8636620') in 0.110504 seconds
+  Import took 0.123223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefab/Levels/Level3.prefab
+  artifactKey: Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.prefab using Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992efce189b5e840e8c005487bac9964') in 0.103378 seconds
+  Import took 0.115248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Prefab/Levels/Level7.2.prefab
+  artifactKey: Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level7.2.prefab using Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b83f7a48f7a62a3b02dc9c8a784bf0') in 0.127622 seconds
+  Import took 0.142294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefab/Levels/Level20.prefab
+  artifactKey: Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level20.prefab using Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69db790dd0f9b58fc814836008bc7189') in 0.098309 seconds
+  Import took 0.110570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Prefab/Levels/Level5.prefab
+  artifactKey: Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level5.prefab using Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db752dfd2eae038378e963a5630dc2ca') in 0.126472 seconds
+  Import took 0.143171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefab/Levels/Level_.prefab
+  artifactKey: Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level_.prefab using Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aae40397be29389dd60685c8727069') in 0.096143 seconds
+  Import took 0.110159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Prefab/Levels/Level18.prefab
+  artifactKey: Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level18.prefab using Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91e0fd8beeba04b21aed490df3123b5') in 0.119552 seconds
+  Import took 0.133745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.651705 seconds.
+  path: Assets/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_ReStart.prefab
+  artifactKey: Guid(4f7d1946ffbe547d4ba4f51f1f0e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_ReStart.prefab using Guid(4f7d1946ffbe547d4ba4f51f1f0e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e8999661f913dfb50768593576dabc') in 0.009132 seconds
+  Import took 0.013791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.931336 seconds.
+  path: Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_blue.png
+  artifactKey: Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_blue.png using Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c44d85bb959b23d93ced35b4892f701') in 0.033563 seconds
+  Import took 0.039344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_icon_resume.png
+  artifactKey: Guid(4b00db671a20143a8be8c3b5301d6a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_icon_resume.png using Guid(4b00db671a20143a8be8c3b5301d6a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7daa26267063cc903a6716510ce16d') in 0.009338 seconds
+  Import took 0.015015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_blue.png
+  artifactKey: Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GUI Kit Casual Game/ResourcesData/Sprite/Play_Continue_Pause_Result/pause_btn_blue.png using Guid(ef337475efc8f47e0a137be142ee61c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c44d85bb959b23d93ced35b4892f701') in 0.013594 seconds
+  Import took 0.017918 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.1 MB.
+System memory in use after: 155.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2681.
+Total: 3.744900 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.109900 ms MarkObjects: 2.453600 ms  DeleteObjects: 0.907500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.107 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 4.339300 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.094800 ms MarkObjects: 3.070400 ms  DeleteObjects: 0.920500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.2 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 3.457700 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.078400 ms MarkObjects: 2.286600 ms  DeleteObjects: 0.890800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1268.311241 seconds.
+  path: Assets/icon.jpg
+  artifactKey: Guid(185da10f9374f4034a885e96a9624a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icon.jpg using Guid(185da10f9374f4034a885e96a9624a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851915e746c27dabea03438247949fee') in 0.090032 seconds
+  Import took 0.095448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/mp-logo-grey-texture.png
+  artifactKey: Guid(3fa067530949441cdb9fe3423dcceef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mp-logo-grey-texture.png using Guid(3fa067530949441cdb9fe3423dcceef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b219bbf59a45ce4c9259ff054cd580') in 0.078049 seconds
+  Import took 0.082952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789563 seconds.
+  path: Assets/Prefab/Hero.prefab
+  artifactKey: Guid(a52d8866af8eb0548bfe675d952c1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Hero.prefab using Guid(a52d8866af8eb0548bfe675d952c1198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4c6309b0ab32c75819889b2b830e56') in 0.074898 seconds
+  Import took 0.080174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.489803 seconds.
+  path: Assets/Prefab/Levels/Level0.prefab
+  artifactKey: Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level0.prefab using Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7338c48232c783bcc597d7018664baf4') in 0.134613 seconds
+  Import took 0.144327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefab/Levels/Level15.prefab
+  artifactKey: Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level15.prefab using Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a74d7191e5bdc2300ee5bb4b988a384') in 0.134506 seconds
+  Import took 0.150136 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000205 seconds.
-  path: Assets/Prefab/Levels/Level10.prefab
-  artifactKey: Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level10.prefab using Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '0709902dc39517f2f6029c5744715916') in 0.218528 seconds
-  Import took 0.229067 seconds .
+  path: Assets/Prefab/Levels/Level4.prefab
+  artifactKey: Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level4.prefab using Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b885759d0269ef2df2c3619585a2a4') in 0.110520 seconds
+  Import took 0.123395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefab/Levels/Level16.prefab
+  artifactKey: Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level16.prefab using Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437c14b4f644846a315a7d9c7dc0361f') in 0.094628 seconds
+  Import took 0.106721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefab/Levels/Level17.prefab
+  artifactKey: Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level17.prefab using Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaa0cc90a97ada03156c0312d2ee9c4') in 0.117869 seconds
+  Import took 0.131427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Prefab/Levels/Level9.prefab
+  artifactKey: Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level9.prefab using Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de83aaeb5ecd84bbc0a08b0fac98e08') in 0.133068 seconds
+  Import took 0.149908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Prefab/Levels/Level2.prefab
+  artifactKey: Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level2.prefab using Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73efd4747746c617fddf700d6b791707') in 0.098172 seconds
+  Import took 0.109952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefab/Levels/Level2.2.prefab
+  artifactKey: Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level2.2.prefab using Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcb987406005ba4dd97b4faed98f3fe') in 0.106839 seconds
+  Import took 0.118776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Prefab/Levels/Level11.prefab
+  artifactKey: Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level11.prefab using Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988d09115e1e8a2a24c14d1315bef59d') in 0.095043 seconds
+  Import took 0.105289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Prefab/Levels/Level8.prefab
+  artifactKey: Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level8.prefab using Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2d426b66c8901ca4cd44232e1807d8') in 0.087222 seconds
+  Import took 0.108418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefab/Levels/Level14.prefab
+  artifactKey: Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level14.prefab using Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fac65dfafe7065a0fa86834ee180ba0') in 0.107071 seconds
+  Import took 0.119726 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000174 seconds.
+  path: Assets/Prefab/Levels/Level6.prefab
+  artifactKey: Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level6.prefab using Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a988dddfb1b1144c44504d2f0705588') in 0.101427 seconds
+  Import took 0.113090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Prefab/Levels/Level1.prefab
+  artifactKey: Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level1.prefab using Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375c6372a28472b7909fc105a9af9167') in 0.099610 seconds
+  Import took 0.116188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Prefab/Levels/Level3.3.prefab
+  artifactKey: Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.3.prefab using Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb620ed0336a8f13e4ff9f5aa69a6cb') in 0.103606 seconds
+  Import took 0.120250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefab/Levels/Level7.prefab
+  artifactKey: Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level7.prefab using Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6177292b9c3b4defc6358ac7a7d0c1') in 0.109745 seconds
+  Import took 0.122523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefab/Levels/Level10.prefab
+  artifactKey: Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level10.prefab using Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c377ad892c7e95390bae91fe6a10205') in 0.100432 seconds
+  Import took 0.110607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
   path: Assets/Prefab/Levels/Level12.prefab
   artifactKey: Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level12.prefab using Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '83429515eea4e74e76227031cb7aa657') in 0.307857 seconds
-  Import took 0.320656 seconds .
+Start importing Assets/Prefab/Levels/Level12.prefab using Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fd0132d2488a547b3a4f52f787afa1') in 0.120101 seconds
+  Import took 0.134408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
+  Time since last request: 0.000250 seconds.
   path: Assets/Prefab/Levels/Level3.2.prefab
   artifactKey: Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level3.2.prefab using Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '36e98f56d18a939a1a9d94622399977b') in 0.332545 seconds
-  Import took 0.344872 seconds .
+Start importing Assets/Prefab/Levels/Level3.2.prefab using Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715deb829d1e1c1939cde65d3b838fdc') in 0.110934 seconds
+  Import took 0.125221 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
+  Time since last request: 0.000217 seconds.
   path: Assets/Prefab/Levels/Level13.prefab
   artifactKey: Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level13.prefab using Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '33710c4a8827a2a125b55830516a9f7c') in 0.303025 seconds
-  Import took 0.315247 seconds .
+Start importing Assets/Prefab/Levels/Level13.prefab using Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e149f46a20a2b7edc877f399dad4f0ca') in 0.108702 seconds
+  Import took 0.122360 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
+  Time since last request: 0.000212 seconds.
   path: Assets/Prefab/Levels/Level19.prefab
   artifactKey: Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level19.prefab using Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '35ad4eccff9b18610ca2d818499ad8b7') in 0.377280 seconds
-  Import took 0.389957 seconds .
+Start importing Assets/Prefab/Levels/Level19.prefab using Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc680757ff395c3eae31706adfccdc0a') in 0.102218 seconds
+  Import took 0.115395 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
+  Time since last request: 0.000347 seconds.
   path: Assets/Prefab/Levels/Level3.prefab
   artifactKey: Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level3.prefab using Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: 'f37579cc3c34a80aa40947f965578dd4') in 0.330635 seconds
-  Import took 0.342543 seconds .
+Start importing Assets/Prefab/Levels/Level3.prefab using Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fc5f8a0945bafb4fd05ac8c53bd038') in 0.109585 seconds
+  Import took 0.122235 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
+  Time since last request: 0.000204 seconds.
   path: Assets/Prefab/Levels/Level7.2.prefab
   artifactKey: Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level7.2.prefab using Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '58ece0a83fd101c7285208ddd2b60f08') in 0.374913 seconds
-  Import took 0.389820 seconds .
+Start importing Assets/Prefab/Levels/Level7.2.prefab using Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d386dc3d4c15f9dad4da3291ba9f962') in 0.131795 seconds
+  Import took 0.150695 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000194 seconds.
+  Time since last request: 0.000371 seconds.
   path: Assets/Prefab/Levels/Level20.prefab
   artifactKey: Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level20.prefab using Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '05b861a2401b2787a2d1c11236677d1e') in 0.237743 seconds
-  Import took 0.250928 seconds .
+Start importing Assets/Prefab/Levels/Level20.prefab using Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b831a3c2f92cf91e572786a2d320a2') in 0.112719 seconds
+  Import took 0.127378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
+  Time since last request: 0.000325 seconds.
   path: Assets/Prefab/Levels/Level5.prefab
   artifactKey: Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level5.prefab using Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
- -> (artifact id: '88751a66e22704a61d7c8bb6498ed540') in 0.235054 seconds
-  Import took 0.251838 seconds .
+Start importing Assets/Prefab/Levels/Level5.prefab using Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05bb2b677bb246744b9432f1b6c09c2') in 0.138974 seconds
+  Import took 0.158627 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
+  Time since last request: 0.000233 seconds.
   path: Assets/Prefab/Levels/Level_.prefab
   artifactKey: Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level_.prefab using Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: '2656c12e03beba877a576d2b9e57d93a') in 0.313822 seconds
-  Import took 0.325785 seconds .
+Start importing Assets/Prefab/Levels/Level_.prefab using Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b463113a0030876f141fca1412eaf5d9') in 0.096977 seconds
+  Import took 0.110624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Prefab/Levels/Level18.prefab
+  artifactKey: Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level18.prefab using Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82155e64de3282944bf5cb4e3442da68') in 0.120321 seconds
+  Import took 0.134752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.286620 seconds.
+  path: Assets/Prefab/Levels/Level0.prefab
+  artifactKey: Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level0.prefab using Guid(1eb98a1b9b7d30344a3ed5b3e41e8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73891ccf3015e473cfd39b537109b9b4') in 0.607530 seconds
+  Import took 0.620987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefab/Levels/Level15.prefab
+  artifactKey: Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level15.prefab using Guid(5899226b46bb20d429e3e3db7bf0b6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12b234e319943463ddf574fd58b7fd1') in 0.293257 seconds
+  Import took 0.310432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Prefab/Levels/Level4.prefab
+  artifactKey: Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level4.prefab using Guid(1b8e52cf041fe334b95de78cee7fad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14915685408a65882dbb8ea9dd8b9bbc') in 0.342252 seconds
+  Import took 0.358672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefab/Levels/Level16.prefab
+  artifactKey: Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level16.prefab using Guid(8ab1d29c213ee204aa1391c542470056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af29d413c96d9d96f8c31a9562157f56') in 0.612302 seconds
+  Import took 0.627333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Prefab/Levels/Level17.prefab
+  artifactKey: Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level17.prefab using Guid(692a40bce4585ca4dae713bc41376e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81efc7b53fdfe2b4eb57370f9702cf0e') in 0.418006 seconds
+  Import took 0.432808 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/Prefab/Levels/Level18.prefab
-  artifactKey: Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Levels/Level18.prefab using Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
-WARNING: RGBA Compressed ETC2 UNorm format is not supported, decompressing texture
-WARNING: RGB Compressed ETC UNorm format is not supported, decompressing texture
- -> (artifact id: 'd5685b424952d6c4a7b86f56a8a34b50') in 0.371735 seconds
-  Import took 0.385653 seconds .
+  path: Assets/Prefab/Levels/Level9.prefab
+  artifactKey: Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level9.prefab using Guid(766a704f9318f1f49b8457e39eb67beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e173969dbc8a2d0e9882a4c11cf40a01') in 0.402393 seconds
+  Import took 0.420919 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 70.789710 seconds.
-  path: Assets/Scenes/Backup.unity
-  artifactKey: Guid(5df9ee4a974f028438059581e3287ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Backup.unity using Guid(5df9ee4a974f028438059581e3287ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3c9f80794d426f19bd6594d0debf35') in 0.002067 seconds
-  Import took 0.005724 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Prefab/Levels/Level2.prefab
+  artifactKey: Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level2.prefab using Guid(3e5c4e6ca6af4cf41813a2b6f020677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5857fbfef088965879fdfbb3e13463e') in 0.364811 seconds
+  Import took 0.377709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefab/Levels/Level2.2.prefab
+  artifactKey: Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level2.2.prefab using Guid(52f2b56aa2a928748b0d7c6865415847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3580907e62a507fec1385919bc1a6ee9') in 0.347284 seconds
+  Import took 0.359761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefab/Levels/Level11.prefab
+  artifactKey: Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level11.prefab using Guid(15b4b9af2f0731440b5432d7a8c6ac33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080b31f132d09531d3084a56f04e3ce4') in 0.319016 seconds
+  Import took 0.331872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Prefab/Levels/Level8.prefab
+  artifactKey: Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level8.prefab using Guid(d7cb3fa7f679c60449f5f25d0c7362cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0511c89cfa42474fac7be2039837151f') in 0.350390 seconds
+  Import took 0.362619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Prefab/Levels/Level14.prefab
+  artifactKey: Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level14.prefab using Guid(b9c16d281e214bb45a73dcd0c3451f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb239b06320e3dbfa8beaff514191606') in 0.337615 seconds
+  Import took 0.352104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefab/Levels/Level6.prefab
+  artifactKey: Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level6.prefab using Guid(60379dd39cbe571488c7747e05de719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a19f12a36ab50d4990528e009ce8cd') in 0.357976 seconds
+  Import took 0.371935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefab/Levels/Level1.prefab
+  artifactKey: Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level1.prefab using Guid(2f5cb2a2bd7b4f74b8e6843459353a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ed88e93f29f8a7b5ed8d023cdd9939') in 0.338883 seconds
+  Import took 0.400881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Prefab/Levels/Level3.3.prefab
+  artifactKey: Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.3.prefab using Guid(de95e7c3a31463348a2c68522f3f5590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fd787f44572bac838096d40702dc1c') in 0.337332 seconds
+  Import took 0.351777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefab/Levels/Level7.prefab
+  artifactKey: Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level7.prefab using Guid(0800374378f7fcf4893cb6902281817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dfaeb7e3b5ec66e29ae3246349bd7d') in 0.366430 seconds
+  Import took 0.380615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefab/Levels/Level10.prefab
+  artifactKey: Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level10.prefab using Guid(280cd6bc2fe81824491edfa61f42f834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0df2a3276d06debf4ef9cac1ae336e9') in 0.210807 seconds
+  Import took 0.222802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefab/Levels/Level12.prefab
+  artifactKey: Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level12.prefab using Guid(1871d5845cd99c448baeda882f1cfcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8407ee054f00640ce53e6d17f90b9b2') in 0.323752 seconds
+  Import took 0.338034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Prefab/Levels/Level3.2.prefab
+  artifactKey: Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.2.prefab using Guid(f96376202e57e964dadbeb56efa848bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927e39d7c10779d8ad9841cb44baa718') in 0.342952 seconds
+  Import took 0.357627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Prefab/Levels/Level13.prefab
+  artifactKey: Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level13.prefab using Guid(484034bd712bb6247b657e5ddb5bb3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce6232c0225816e5422901d25bd453e') in 0.336350 seconds
+  Import took 0.349097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Prefab/Levels/Level19.prefab
+  artifactKey: Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level19.prefab using Guid(fc236c44eb4a9fa409974e28083fc373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225c54dc784f48cade27c6b547a5254c') in 0.390835 seconds
+  Import took 0.405351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Prefab/Levels/Level3.prefab
+  artifactKey: Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level3.prefab using Guid(02b6d9ef0e9a60a42a67675d173a90cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd23b3d7e5185c58f1426b46e3eb9021') in 0.344159 seconds
+  Import took 0.357877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefab/Levels/Level7.2.prefab
+  artifactKey: Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level7.2.prefab using Guid(74c4cd96c93f0f24dac8fddeb4cf7435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833d5df7ebab8bed86a22142b171ea98') in 0.391525 seconds
+  Import took 0.407668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Prefab/Levels/Level20.prefab
+  artifactKey: Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level20.prefab using Guid(eb15358ff4a772f429c2bd66d5f1c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a40558b0253ad3f9e7afa885a268e68') in 0.232616 seconds
+  Import took 0.247681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Prefab/Levels/Level5.prefab
+  artifactKey: Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level5.prefab using Guid(c6629b26a2d32e040909f85e6862c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08fb1dc0f842b79fce04cc090910831') in 0.247231 seconds
+  Import took 0.265989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Prefab/Levels/Level_.prefab
+  artifactKey: Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level_.prefab using Guid(12c3106187ecce849b0b1705fa2d3e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03259acdf8365dc4b26b20447433cf9') in 0.343978 seconds
+  Import took 0.355750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Prefab/Levels/Level18.prefab
+  artifactKey: Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Levels/Level18.prefab using Guid(2f2d9d8137a920446953c26d13086a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddf8055c4f9e3158894e1f49ddcac1b') in 0.379395 seconds
+  Import took 0.394549 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002650 seconds.
+Registered in 0.004014 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
 UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:114)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 [Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
@@ -777,25 +917,158 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.249 seconds
+- Completed reload, in  1.150 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2060 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 279.1 MB.
-System memory in use after: 273.6 MB.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 161.2 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 9.708242 ms (FindLiveObjects: 0.828479 ms CreateObjectMapping: 0.305293 ms MarkObjects: 4.138604 ms  DeleteObjects: 4.433410 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 4.479800 ms (FindLiveObjects: 0.329600 ms CreateObjectMapping: 0.129200 ms MarkObjects: 3.018300 ms  DeleteObjects: 1.001000 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.003673 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.0 MB.
-System memory in use after: 223.6 MB.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2698.
-Total: 5.684959 ms (FindLiveObjects: 0.266858 ms CreateObjectMapping: 0.103817 ms MarkObjects: 2.136864 ms  DeleteObjects: 3.176605 ms)
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 4.422900 ms (FindLiveObjects: 0.304500 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.961000 ms  DeleteObjects: 1.048400 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 125.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 4.339200 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.917800 ms  DeleteObjects: 1.062300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2049 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.406300 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.245000 ms  DeleteObjects: 0.837500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002918 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 4.316500 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.959500 ms  DeleteObjects: 1.036300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002945 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.016 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2050 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 161.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2698.
+Total: 4.098400 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.114700 ms MarkObjects: 2.692700 ms  DeleteObjects: 1.039000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
