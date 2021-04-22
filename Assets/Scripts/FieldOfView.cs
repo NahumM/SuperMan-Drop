@@ -70,7 +70,6 @@ public class FieldOfView : MonoBehaviour
 					float dstToTarget = Vector3.Distance(transform.position, target.position);
 					if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
 					{
-						Debug.Log(target.name);
 						if (target.gameObject.CompareTag("Player"))
 						{
 							visibleTargets.Add(target);
@@ -86,6 +85,7 @@ public class FieldOfView : MonoBehaviour
 							viewMeshFilter.mesh = null;
 							viewMeshFilter = viewMeshFilterFindPlayer;
 							viewMeshFilter.mesh = viewMesh;
+							patrol.FindHero(target.gameObject);
 							finded = true;
 						}
 					}

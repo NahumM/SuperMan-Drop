@@ -8,6 +8,13 @@ TagManager:
   - Enemy
   - Breakable
   - DeadEnemy
+  - ExplodeBox
+  - Hostage
+  - Boss
+  - Dynomite
+  - FinalBoss
+  - Ball
+  - Cage
   layers:
   - Default
   - TransparentFX
@@ -18,8 +25,8 @@ TagManager:
   - Player
   - Enemy
   - Ignore
-  - 
-  - 
+  - DeadBody
+  - Sound
   - 
   - 
   - 

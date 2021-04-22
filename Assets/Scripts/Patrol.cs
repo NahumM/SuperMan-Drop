@@ -49,7 +49,8 @@ public class Patrol : MonoBehaviour
                 {
                     anim.SetBool("isShooting", true);
                     shootingParticle.Play();
-                    heroC.Die();
+                    if (heroC != null)
+                        heroC.Die();
                     goingToShoot = false;
                     restartButton.SetActive(true);
                 }
@@ -62,7 +63,10 @@ public class Patrol : MonoBehaviour
     public void FindHero(GameObject hero)
     {
         if (agent.isActiveAndEnabled)
+        {
             agent.destination = transform.position + (hero.transform.position - transform.position).normalized;
+            patrol = false;
+        }
         heroC = hero.GetComponent<HeroController>();
         goingToShoot = true;
     }

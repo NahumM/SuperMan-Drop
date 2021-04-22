@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public Transform destanation;
+    [HideInInspector] public Transform destanation;
     [SerializeField] GameObject camerapoint2;
+    public Transform cameraWin;
     public List<GameObject> cameraPoints;
     public HeroController hero;
     [SerializeField] List<ParticleSystem> cryParticles = new List<ParticleSystem>();
     [SerializeField] List<ParticleSystem> angryParticles = new List<ParticleSystem>();
 
     private void Start() => destanation = transform;
-    public void StartLevel() => StartCoroutine("CameraStart");
+    public void StartLevel() => StartCoroutine("CameraHandler");
 
     void Update()
     {
-        transform.position = Vector3.Lerp(transform.position, destanation.transform.position, Time.deltaTime);
-        transform.rotation = Quaternion.Lerp(transform.rotation, destanation.transform.rotation, Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, destanation.transform.position, Time.deltaTime * 3);
+        transform.rotation = Quaternion.Lerp(transform.rotation, destanation.transform.rotation, Time.deltaTime * 3);
     }
 
     IEnumerator CameraStart()
@@ -38,7 +39,17 @@ public class CameraController : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         destanation = cameraPoints[3].transform;
         yield return new WaitForSeconds(3f);
-        hero.gameStarted = true;
+        hero.StartHero();
+    }
+
+    IEnumerator CameraHandler()
+    {
+        foreach (GameObject point in cameraPoints)
+        {
+            destanation = point.transform;
+            yield return new WaitForSeconds(0.2f);
+        }
+        hero.StartHero();
     }
 
     void CryParticles()
