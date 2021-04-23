@@ -79,10 +79,7 @@ public class SDKManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //if (adsTimer >= 0) adsTimer = Time.realtimeSinceStartup - adsTimer;
-        
-        adsTimer += 0.02f;
-        //Debug.Log(adsTimer);
+        adsTimer += Time.deltaTime;
     }
     private void Start()
     {     
@@ -100,6 +97,8 @@ public class SDKManager : MonoBehaviour
         AppMetrica.Instance.ActivateWithConfiguration(config);
 
         MaxSdk.ShowMediationDebugger();
+
+        adsTimer = 0;
     }
 
     public void InitializeBannerAds()
@@ -329,6 +328,7 @@ public class SDKManager : MonoBehaviour
     private void OnRewardedAdReceivedRewardEvent(string adUnitId, MaxSdk.Reward reward)
     {
         // Rewarded ad was displayed and user should receive the reward
+        adsTimer = 0;
         Dictionary<string, object> RVEvent = new Dictionary<string, object>();
         RVEvent.Add("ad_type", "rewarded");
         RVEvent.Add("result", "watched");
