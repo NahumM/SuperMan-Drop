@@ -335,4 +335,40 @@ public class SDKManager : MonoBehaviour
         AppMetrica.Instance.ReportEvent("video_ads_watch", RVEvent);
         AppMetrica.Instance.SendEventsBuffer();
     }
+
+    public void SkipLevelRV()
+    {
+        if (MaxSdk.IsRewardedAdReady(rewardedAdUnitID))
+        {
+            adsTimer = 0;
+            //currentRVType = RVType.speedUp;
+            MaxSdk.ShowRewardedAd(rewardedAdUnitID);
+
+            Dictionary<string, object> RVEvent = new Dictionary<string, object>();
+            RVEvent.Add("ad_type", "rewarded");
+            RVEvent.Add("placement", "skip_level");
+            RVEvent.Add("result", "success");
+            RVEvent.Add("connection", "true");
+            AppMetrica.Instance.ReportEvent("video_ads_available", RVEvent);
+            AppMetrica.Instance.SendEventsBuffer();
+
+            RVEvent = new Dictionary<string, object>();
+            RVEvent.Add("ad_type", "rewarded");
+            RVEvent.Add("placement", "skip_level");
+            RVEvent.Add("result", "start");
+            RVEvent.Add("connection", "true");
+            AppMetrica.Instance.ReportEvent("video_ads_started", RVEvent);
+            AppMetrica.Instance.SendEventsBuffer();
+        }
+        else
+        {
+            Dictionary<string, object> RVEvent = new Dictionary<string, object>();
+            RVEvent.Add("ad_type", "rewarded");
+            RVEvent.Add("placement", "skip_level");
+            RVEvent.Add("result", "not_available");
+            RVEvent.Add("connection", "true");
+            AppMetrica.Instance.ReportEvent("video_ads_available", RVEvent);
+            AppMetrica.Instance.SendEventsBuffer();
+        }
+    }
 }
