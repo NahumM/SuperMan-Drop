@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LevelLoader : MonoBehaviour
 {
@@ -46,6 +47,7 @@ public class LevelLoader : MonoBehaviour
     {
         Destroy(loadedLevel);
         loadedLevel = Instantiate(levelPrefabs[levelCounter - 1]);
+        GameObject.Find("Button_Blue").GetComponent<Button>().onClick.Invoke();
     }
 
 

@@ -44,6 +44,7 @@ public class CameraController : MonoBehaviour
 
     IEnumerator CameraHandler()
     {
+        yield return new WaitForSeconds(0.1f);
         foreach (GameObject point in cameraPoints)
         {
             destanation = point.transform;

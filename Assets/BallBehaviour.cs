@@ -19,7 +19,7 @@ public class BallBehaviour : MonoBehaviour
     {
         if (other.CompareTag("Boss"))
         {
-            if (rb.velocity.magnitude > 15f)
+            if (rb.velocity.magnitude > 3f)
             {
                 other.GetComponent<RagdollController>().TurnOnRagDoll();
                 other.GetComponent<RagdollController>().RagDollExplotionForce(15000, transform.position, 3);
@@ -27,7 +27,7 @@ public class BallBehaviour : MonoBehaviour
         }
         if (other.CompareTag("FinalBoss"))
         {
-            if (rb.velocity.magnitude > 15f)
+            if (rb.velocity.magnitude > 3f)
             {
                 other.GetComponent<BossBehaviour>().BossDamage(1);
             }
