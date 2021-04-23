@@ -31,4 +31,9 @@ public class BtnHandler : MonoBehaviour
         levelLoader.LoadLevel();
     }
 
+    public void SkipLevel()
+    {
+        levelLoader.SkipLevelForAd();
+    }
+
 }

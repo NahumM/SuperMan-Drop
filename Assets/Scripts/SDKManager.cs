@@ -20,6 +20,8 @@ public class SDKManager : MonoBehaviour
     private string bannerAdUnitId = "fd3bd3f4c212b8df";
     public string rewardedAdUnitID = "3151e0c21512df41";
 
+    [SerializeField] LevelLoader levelLoader;
+
     private void Awake()
     {
         if (SDKManager.sdkManager == null)
@@ -325,7 +327,7 @@ public class SDKManager : MonoBehaviour
     //    // Rewarded ad was displayed and user should receive the reward
     //}
 
-    private void OnRewardedAdReceivedRewardEvent(string adUnitId, MaxSdk.Reward reward)
+    public void OnRewardedAdReceivedRewardEvent(string adUnitId, MaxSdk.Reward reward)
     {
         // Rewarded ad was displayed and user should receive the reward
         adsTimer = 0;
@@ -334,6 +336,7 @@ public class SDKManager : MonoBehaviour
         RVEvent.Add("result", "watched");
         AppMetrica.Instance.ReportEvent("video_ads_watch", RVEvent);
         AppMetrica.Instance.SendEventsBuffer();
+        levelLoader.OnRewardedEvent();
     }
 
     public void SkipLevelRV()
